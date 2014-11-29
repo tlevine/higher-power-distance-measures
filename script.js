@@ -5,7 +5,7 @@
    The resulting plot doesn't seem to be outrageously slow, but
    I apologize regardless for such an ugly creation. */
 
-(function(){
+window.onload = function(){
   window.viz = {}
 
   viz.skewedDistribution = function() {
@@ -254,4 +254,4 @@
     .attr('fill', 'white')
     .text('Drag the pink bar -->')
 
-})()
+}
